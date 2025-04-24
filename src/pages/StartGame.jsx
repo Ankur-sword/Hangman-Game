@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function StartGame(){
 return (
     <>
@@ -5,9 +7,7 @@ return (
          Start Game
         {/* Your comment goes here */}
     </h1>
-    <h2>
-
-    </h2>
+    <Link to ='/play' className="text-blue-400">Play Game link</Link>
     </>
 )
 }
